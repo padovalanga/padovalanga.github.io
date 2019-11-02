@@ -36,6 +36,6 @@ body{
     #div1,#div2,#div3,#div4{
     margin-top: auto;
     margin-bottom: auto;
-    width: auto;
+    width: 50vw;
     }
 }
