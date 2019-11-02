@@ -35,7 +35,7 @@ body{
     }
     #div1,#div2,#div3,#div4{
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 5vh;
     width: 50vw;
     }
 }
