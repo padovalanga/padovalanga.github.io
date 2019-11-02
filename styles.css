@@ -24,18 +24,19 @@ body{
     color: rgba(0, 0, 0, 0.356);
 }
 @media only screen and (max-width: 1000px){
-    body{
+      body{
         font-size: 0.25rem;
     }
     #wrapper{
         display: flex;
         flex-flow:column;
-        justify-content: auto;
         overflow-y: auto;
+        align-items: center;
+        padding:50vh 0 10vh 0vh;
     }
     #div1,#div2,#div3,#div4{
     margin-top: auto;
     margin-bottom: auto;
-    width: auto;
+    width: 50vw;
     }
 }
