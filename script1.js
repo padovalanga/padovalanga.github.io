@@ -8,8 +8,10 @@ let timer = () => {
         let mins =  Math.floor((timeLeft%(1000* 60* 60))/(1000 * 60));
         let secs = Math.floor((timeLeft%(1000* 60))/(1000));
         let msec = Math.floor(timeLeft%1000);
-        document.getElementById("div1").innerHTML=days+":"+hours+":"+mins+":"+secs;
-        document.getElementById("div2").innerHTML=":"+msec;
+        document.getElementById("div1").innerHTML=days;
+        document.getElementById("div2").innerHTML=hours;
+        document.getElementById("div3").innerHTML=mins;
+        document.getElementById("div4").innerHTML=secs;
     },100)
 }
 timer();
